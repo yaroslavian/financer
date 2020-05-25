@@ -37,6 +37,14 @@ module.exports = {
         'semi': [
             'error',
             'always'
-        ]
+        ],
+        'comma-dangle': [
+            "error",
+            "never"
+        ],
+        'no-trailing-spaces': "error",
+        'no-multiple-empty-lines': "error",
+        'no-debugger': "error",
+        'no-console': "warn"
     }
 };

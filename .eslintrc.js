@@ -45,6 +45,16 @@ module.exports = {
         'no-trailing-spaces': "error",
         'no-multiple-empty-lines': "error",
         'no-debugger': "error",
-        'no-console': "warn"
+        'no-console': "warn",
+        'require-jsdoc' : ['warn', {
+            require: {
+                "FunctionDeclaration": true,
+                "ClassDeclaration": true,
+                "MethodDefinition": true,
+                "ArrowFunctionExpression": true,
+                "FunctionExpression": true
+            }
+        }],
+        'valid-jsdoc': 'error',
     }
 };

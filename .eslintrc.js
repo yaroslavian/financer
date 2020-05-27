@@ -56,5 +56,6 @@ module.exports = {
             }
         }],
         'valid-jsdoc': 'error',
+        'eol-last': ['error', 'always']
     }
 };
